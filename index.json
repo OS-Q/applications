@@ -1,0 +1,37 @@
+{
+    "type":"SoC",
+    "name":"PL51RC003",
+    "title": "PMicro PL51RC003 SoC",
+    "description":"PMicro RFID SoC",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"MCS-51",
+        "Fmax":12,
+        "DMIPS": 40,
+        "CoreMark": 85
+    },
+    "manufacturer": {
+        "vendor":"PMicro",
+        "homepage":"https://www.pmicro.com.cn"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/PL51RC003.git"
+    },
+    "version":"1.0.0",
+    "series":["PL51RC003"],
+    "package":["QFN36"],
+    "peripheral": ["ADC","UART","SPI","IIC"],
+    "temp": [-40,125],
+    "volt": [2.5,5.5],
+    "ESD": {
+        "HBM": 4000,
+        "CDM": 500
+    },
+    "keywords": [
+        "MCS-51",
+        "PMicro",
+        "ADC","I2C","RFID","SPI","UART"
+    ]
+}
+
